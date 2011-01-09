@@ -1,0 +1,16 @@
+h2. blog by jekyll & github
+
+# git
+# github
+# .gitignore
+# ruby
+# rubygems
+# jekyll
+# liquid
+# redcloth
+# textile
+# disqus
+# 2011-01-01-title.textile
+# layout: default
+# title: title
+# category: tech & design & life
