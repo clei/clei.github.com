@@ -1,0 +1,31 @@
+/*! charies, 2011-01-05*/
+body,div,p,ul,ol,li,h1,h2{margin:0;padding:0;}
+body{font:12px/1 Tahoma,Arial,Helvetica,SimSun,san-serif;}
+a{color:#11c;text-decoration:none;}
+img{border:none;}
+.wrap{width:560px;margin:0 auto;}
+/*nav*/#header h1{visibility:hidden;}
+#header .nav ul{overflow:hidden;line-height:18px;}
+#header .nav li{float:left;display:inline;margin:0 12px;}
+#header .nav a{font-weight:700;color:#aaa;font-size:18px;}
+#header .nav a:hover{color:#000;}
+#header .nav .host{color:#a00;}
+/*content*/.section{line-height:1.8;font-size:14px;}
+.section a:visited{color:#551A8B;}
+.section h2{font-size:17px;margin:24px 0 18px;}
+.section .bd{font-family:Helvetica;}
+.section .bd span{font-size:11px;color:#aaa;}
+.section a:hover{background-color:#039;color:#fff;}
+.section li{list-style:none;}
+/*post*/#post{line-height:1.5;margin:24px 0;font-size:14px;}
+#post h1{font-size:16px;font-family:\5FAE\8F6F\96C5\9ED1;}
+#post p{margin:18px 0;}
+#post .meta{margin:0 0 12px;color:#999;font-size:11px;}
+#post li{list-style-position:inside;}
+#post a:hover{text-decoration:underline;}
+/*ralated*/.related{border-top:4px solid #eee;border-bottom:4px solid #eee;margin:12px 0;padding:0 0 12px;}
+.related h2{margin:6px 0;}
+/*fork-me*/.fork-me{display:block;width:149px;height:149px;position:fixed;top:0;right:0;}
+/*footer*/#footer{margin:24px 0;padding:6px 0;line-height:1.6;border-top:4px solid #eee;font-size:11px;color:#999;}
+#footer a{text-decoration:underline;color:#8085C1;}
+#footer a:hover{text-decoration:none;}

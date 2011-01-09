@@ -1,0 +1,56 @@
+---
+layout: post
+title: quick-text 与 textile
+category: tech
+---
+
+h1. {{ page.title }}
+
+p(meta). 08 Jan 2011 - Beijng
+
+"quick-text":http://code.google.com/p/quicktext/ 是一个文本编辑器的插件，可以实现类似宏的功能。
+
+"Textile":http://textile.thresholdstate.com/ 是一种比html简单的标记语言。虽然html我非常熟悉，还是把textile的常用标签利用"quick-text"存为宏更为方便一些。
+
+# 数字列表 @# ol-list = olist@
+# 文字链 @"link":src = lnk@
+# 无序列表 @* ul-list = ulist@
+# 代码标签 @<code> = code@
+# 文字加粗 @*strong* = blod@
+# 下划线 @+underline+ = underline@
+# 斜体 @_em_ = em@
+# 块状元素 @div(class). = div@
+
+既然写了"Textile"的"quick-text"，顺便也把html写了好了。之前写code都是用Dreamweaver，虽然比较占用内存不过公司和家里的机器跑起来没啥问题，就一直用了。直到家里的机器重做系统，Adobe cs5重新安装失败，这才让我有了接触 "notepad++":http://notepad-plus-plus.org/ 的机会，它默认的设置还是很低调的，像 +标签自动闭合+ +自动完成+ 功能都是没有开启的，一些高级的功能还是通过插件来实现的。这可能就是为什么我完全忽略它在我电脑里的存在的原因吧。
+
+"quick-text"很酷，它可以帮我整理我常用的代码模块，节省我重复编写浪费的时间。哎，时间就是生命啊~ 具体怎么设置，可以看一下 "《Notepad++配合QuickText打造快速高效的文本编辑器》":http://www.soberma.com/notepad-quicktext 
+
+好吧，列一下我常用的html 和css 的"quick-text"
+
+*HTML*
+
+# html5 文档模板 = @dtd@
+# 链接 = @a@
+# 列表 = @list@
+# 图片 = @img@
+# flash嵌入代码embed = @flv@
+# article文章内容 = @art@
+# section = @sec@
+# 表格 = @table@
+# 表单 = @form@
+# 表单-文本框 = @inputt@
+# 表单-提交按钮 = @inputs@
+# hgroup = @hgr@
+
+*CSS*
+
+# css-reset = @rset@
+# 内嵌块状inline-blcok（兼容不好，需hack） = @inb@
+# 浮动 = @fl@
+# 清除浮动 = @cfl@
+# 块状链接 = @ablk@
+# 绝对定位 = @posa@
+# 背景 = @bg@
+# text-indext & overflow = @tind@
+
+PS: "github":http://pages.github.com/  的pages功能很强大，让我可以像写code的一样的写blog。酷！
