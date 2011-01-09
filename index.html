@@ -1,0 +1,38 @@
+---
+layout: default
+title: Enlei-Cai
+---
+<div id="content">
+	<div class="main">
+		<div class="section">
+			<h2>Blog Posts</h2>
+			<div class="bd">
+				<ul>
+					 {% for post in site.posts %}
+					<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+					 {% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div id="tech" class="section tech">
+			<h2>Tech, Projects, Etc</h2>
+			<div class="bd">
+				<ul>
+					 {% for post in site.categories.tech %}
+					<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+					 {% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div id="design" class="section design">
+			<h2>Design</h2>
+			<div class="bd">
+				<ul>
+					 {% for post in site.categories.design %}
+					<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+					 {% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
