@@ -23,7 +23,7 @@ img{border:none;}
 #post .meta{margin:0 0 12px;color:#999;font-size:11px;}
 #post li{list-style-position:inside;}
 #post a:hover{text-decoration:underline;}
-#post code{background-color:#fff;border:1px solid #DEDEDE;color:#444;font-size:12px;padding:0 0.2em;}
+#post code,#post .code{background-color:#EEF;border:1px solid #DEDEDE;color:#444;font-size:12px;padding:0 0.4em;}
 /*ralated*/.related{border-top:4px solid #eee;border-bottom:4px solid #eee;margin:12px 0;padding:0 0 12px;}
 .related h2{margin:6px 0;}
 /*fork-me*/.fork-me{display:block;width:149px;height:149px;position:fixed;top:0;right:0;}

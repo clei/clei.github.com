@@ -1,0 +1,46 @@
+---
+layout: post
+title: IE6 下解决半透明和fixed定位的问题
+category: tech
+---
+
+h1. {{ page.title }}
+
+p(meta). 10 Jan 2011 - Beijng
+
+如果你使用ie6上网的话，安全就是个大问题。网银，游戏等帐号都不安全。建议你立即换上更加安全的浏览器。我推荐你使用google浏览器。 
+
+我的公司是做网游的，每每看到浏览器统计的时候我都很崩溃。ie6总是那么坚挺。没办法只能想尽一切办法解决ie6下各式各样的bug。 
+
+这篇blog解决2个bug 
+
+# png32半透明bug 
+# fixed定位bug
+
+png32的半透明bug，我的解决办法是转换成swf文件。优点： 
+
+* 文件体积减低一半
+* 不需要加载js
+* 不适用ie的滤镜
+
+png32转换swf文件可参考这篇blog  "《网络图像优化》":http://blog.gulu77.com/?p=727 
+
+fixed的定位bug，需要解决俩个问题 
+
+# fixed定位
+# 滚动时的抖动  
+
+div(code). .ele{
+	position:fixed;
+	top:px;
+	left:px;
+}
+/* ie6 fixed bug */
+html,html body{
+	_background-images:url(about:blank);
+	_background-attachment:fixed;
+}
+.ele{
+	_position:absolute;
+	_top:expression(eval(document.documentElement.scrollTop)+100);
+}
