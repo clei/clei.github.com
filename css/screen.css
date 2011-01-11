@@ -1,6 +1,6 @@
 /* Caienlei Beijing, 2011-1-11 */
 body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,blockquote,pre,form,fieldset,legend,textarea,hr{margin:0;padding:0;}
-li{list-style:none;}
+
 img{border:0;}
 table{border-collapse:collapse;border-spacing:0;}
 em{font-style:normal;}
@@ -26,10 +26,16 @@ nav a{
 article{
 	font-size:14px;
 }
+article li{
+	list-style:none;
+}
 .posts  h1{
 	font-size:16px;
 	font-weight:700;
 	font-family:\5FAE\8F6F\96C5\9ED1;
+}
+.posts li{
+	list-style-position:inside;
 }
 .meta{
 	margin-top:0;
