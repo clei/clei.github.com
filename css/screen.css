@@ -33,8 +33,7 @@ article{
 	font-family:\5FAE\8F6F\96C5\9ED1;
 }
 .posts li{
-	list-style-position:inside;
-	list-style:circle;
+	list-style:circle inside;
 }
 .meta{
 	margin-top:0;
