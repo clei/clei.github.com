@@ -5,7 +5,7 @@ img{border:0;}
 table{border-collapse:collapse;border-spacing:0;}
 li{list-style:none;}
 em{font-style:normal;}
-body{font:12px/1.8 Arial,Tahoma,Helvetica,SimSun,san-serif;}
+body{font:12px/1.8 Arial,Tahoma,Helvetica,SimSun,san-serif;overflow-x:hidden;}
 
 /* link-color & font-size */
 a{
