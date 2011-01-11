@@ -3,6 +3,7 @@ body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,blockquote,pre,form,fieldset,lege
 
 img{border:0;}
 table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
 em{font-style:normal;}
 body{font:12px/1.8 Arial,Tahoma,Helvetica,SimSun,san-serif;}
 
@@ -26,9 +27,6 @@ nav a{
 article{
 	font-size:14px;
 }
-article li{
-	list-style:none;
-}
 .posts  h1{
 	font-size:16px;
 	font-weight:700;
@@ -36,6 +34,7 @@ article li{
 }
 .posts li{
 	list-style-position:inside;
+	list-style:circle;
 }
 .meta{
 	margin-top:0;
